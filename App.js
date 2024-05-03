@@ -9,6 +9,7 @@ const app = express();
 const port = process.env.PORT;
 
 app.use(cors());
+app.options("*", cors());
 
 // Middlewares
 app.use(bodyParser.json({ limit: "50mb" }));
