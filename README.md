@@ -1,5 +1,6 @@
 # master-o-backend
-
+# npm i
+# npm start
 <!--
 1. login / signup api.
 2. Api for fetching the initial points of the user.
