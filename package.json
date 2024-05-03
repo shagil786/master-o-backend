@@ -1,0 +1,32 @@
+{
+  "name": "master-o-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "Node App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shagil786/master-o-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shagil786/master-o-backend/issues"
+  },
+  "homepage": "https://github.com/shagil786/master-o-backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-jwt": "^8.4.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.9.7"
+  }
+}
